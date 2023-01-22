@@ -1,0 +1,133 @@
+:root {
+  --primary-text-color: #434455;
+  --title-nav-color: #2e2f42;
+  --logo-footer-color: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --hero-text-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --active-button-color: #404bbf;
+}
+body {
+  background-color: #ffffff;
+  color: var(--title-nav-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo > span {
+  color: var(--title-nav-color);
+}
+.logo.footer > span {
+  color: var(--logo-footer-color);
+}
+
+/* site-nav */
+.link {
+  text-decoration: none;
+}
+.site-nav .link {
+  color: var(--title-nav-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5x;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--active-button-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+.site-addr .link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.site-addr .link:hover,
+.site-addr .link:focus {
+  color: var(--active-button-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--hero-text-color);
+  /* бекграунт поставил для видимости заголовка */
+  background-color: var(--title-nav-color);
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+}
+.hero .btn {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/* portfolio filtr */
+.filtr .btn {
+  color: var(--accent-color);
+  background-color: var(--logo-footer-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--hero-text-color);
+  background-color: var(--active-button-color);
+  cursor: pointer;
+}
+
+/* section */
+.section-title {
+  color: var(--title-nav-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+.subtitle {
+  color: var(--title-nav-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* centering */
+.people .subtitle,
+.people .text {
+  text-align: center;
+}
+
+/* footer */
+.footer-text {
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
