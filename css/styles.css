@@ -248,6 +248,7 @@ body {
 }
 
 .people.list .card.content {
+  padding-left: 0px;
   background-color: var(--hero-text-color);
   border-radius: 0px 0px 4px 4px;
 }
