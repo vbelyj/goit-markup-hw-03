@@ -185,7 +185,11 @@ body {
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 48;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+  width: 494px;
+
   color: var(--hero-text-color);
   font-size: 56px;
   line-height: 1.07;
